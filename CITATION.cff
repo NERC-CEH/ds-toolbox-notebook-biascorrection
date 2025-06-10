@@ -1,0 +1,54 @@
+# This CITATION.cff file was generated with cffinit.
+# Visit https://bit.ly/cffinit to generate yours today!
+
+cff-version: 1.2.0
+title: >-
+  Bias correction of climate models using Bayesian
+  hierarchical model and Gaussian processes (Jupyter
+  Notebook)
+message: >-
+  If you use this software, please cite it using the
+  metadata from this file.
+type: software
+authors:
+  - given-names: Jeremy
+    family-names: Carter
+    name-suffix: PhD
+    email: jercar@ceh.ac.uk
+    affiliation: UK Centre for Ecology & Hydrology (UKCEH)
+    orcid: 'https://orcid.org/0000-0003-1878-2277'
+repository-code: >-
+  https://github.com/NERC-CEH/ds-toolbox-notebook-biascorrection.git
+repository-artifact: >-
+  https://github.com/Jez-Carter/Bias_Correction_Application.git
+abstract: >-
+  Physically based climate models are
+  highly-multidimensional and computationally demanding.
+  Simulation runs are often tuned for specific variables and
+  typically observe a non-insignificant bias in other
+  variables. Depending on what variables your specific
+  research question focuses on it's often desirable to
+  perform postprocessing bias correction. In-situ
+  measurements of variables can be used to help apply a bias
+  correction. Where the in-situ measurements are sparse it's
+  important to consider uncertainty, depending on factors
+  such as the underlying spatial covariance between points. 
+
+
+  Here Gaussian processes are used to explicitly model
+  spatial covariance between points and to estimate
+  uncertainties when applying bias correction across the
+  whole domain. A Bayesian hierarchical model is constructed
+  to promote uncertainty propagation across the different
+  components of the model. 
+keywords:
+  - Bayesian
+  - Hierarchical
+  - Bias Correction
+  - Uncertainty
+  - Sparse
+  - Gaussian Process
+  - Climate
+license: MIT
+commit: 5167ca3
+date-released: '2025-06-09'
