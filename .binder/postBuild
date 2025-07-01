@@ -1,0 +1,12 @@
+#!/bin/bash
+
+# Ensure the environment is activated (Binder does this automatically)
+echo "Installing jupyterlab-myst extension..."
+
+# Install jupyterlab-myst extension via pip (if not included in environment.yml)
+pip install jupyterlab-myst
+
+# Enable the extension (JupyterLab 3+ should auto-enable installed extensions)
+jupyter lab build
+
+echo "Finished setting up postBuild tasks."
