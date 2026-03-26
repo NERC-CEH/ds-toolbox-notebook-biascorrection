@@ -13,7 +13,7 @@ dependencies:
   - numpyro
   - pandas
   - python=3.12
-  - scikit-learn
+  - scikit-learn=1.6.1
   - scipy
   - seaborn
   - tinygp
@@ -21,3 +21,5 @@ dependencies:
   - xarray
   - ipykernel
   - fiona
+  - netcdf4
+  - h5netcdf
